@@ -463,6 +463,34 @@
             white-space: pre-wrap;
         }
 
+        /*serif*/
+        @font-face {
+            font-family: 'Lexend';
+            font-weight: normal;
+            font-style: normal;
+            src: url('./assets/Lexend-Regular.ttf')
+        }
+
+        @font-face {
+            font-family: 'Lexend';
+            font-weight: bold;
+            font-style: normal;
+            src: url('./assets/Lexend-Bold.ttf')
+        }
+
+        /*monospace*/
+        @font-face {
+            font-family: 'SourceCodePro';
+            font-weight: normal;
+            font-style: normal;
+            src: local(SourceCodePro), url('./assets/SourceCodePro-Regular.ttf')
+        }
+        
+        /*image rounded corners*/
+        img.rounded-corners {
+           border-radius: 50%;
+        }
+
         @media print {
 
             body,
@@ -499,33 +527,6 @@
             .typora-export-show-outline .typora-export-sidebar {
                 display: none;
             }
-                /*serif*/
-                @font-face {
-                    font-family: 'Lexend';
-                    font-weight: normal;
-                    font-style: normal;
-                    src: url('./assets/Lexend-Regular.ttf')
-                }
-
-                @font-face {
-                    font-family: 'Lexend';
-                    font-weight: bold;
-                    font-style: normal;
-                    src: url('./assets/Lexend-Bold.ttf')
-                }
-
-                /*monospace*/
-                @font-face {
-                    font-family: 'SourceCodePro';
-                    font-weight: normal;
-                    font-style: normal;
-                    src: local(SourceCodePro), url('./assets/SourceCodePro-Regular.ttf')
-                }
-                
-                /*image rounded corners*/
-                img.rounded-corners {
-                   border-radius: 50%;
-                }
         }
 
         .footnote-line {
